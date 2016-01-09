@@ -1,4 +1,4 @@
-# provisionning
+# Provisioning
 
 ifttt/dash
 
