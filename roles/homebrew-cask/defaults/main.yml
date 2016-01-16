@@ -1,6 +1,3 @@
 ---
-homebrew_cask_environment:
-  HOMEBREW_CASK_OPTS: '--appdir=/Applications'
-
 homebrew_cask_taps:
   - caskroom/versions
