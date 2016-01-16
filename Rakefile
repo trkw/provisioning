@@ -15,7 +15,7 @@ end
 
 desc 'Only syntax check'
 task 'dryrun' do
-  sh 'ansible-playbook -i hosts ./playbook.yml --syntax-check'
+  sh 'HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts ./playbook.yml --syntax-check'
 end
 
 task :help do
