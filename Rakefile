@@ -10,7 +10,7 @@ end
 
 desc 'Run ansible-playbook'
 task 'run' do
-  sh 'ansible-playbook -i hosts ./playbook.yml -vv'
+  sh 'HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts ./playbook.yml -vv'
 end
 
 desc 'Only syntax check'
