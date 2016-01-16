@@ -1,6 +1,5 @@
 - name: Install MacVim
   homebrew_cask: name=macvim
-  environment: homebrew_cask_environment
 
 - name: Create neobundle plugin directory
   file: path={{ neobundle_root }} state=directory
