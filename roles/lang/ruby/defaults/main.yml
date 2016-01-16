@@ -1,0 +1,22 @@
+---
+rbenv_packages:
+  - readline
+  - ruby-build
+  - rbenv
+
+ruby_version: 2.2.2
+
+ruby_versions:
+  - 1.9.3-p551
+  - 2.2.2
+
+gem_path: '~/.rbenv/shims/gem'
+
+gem_essential_packages:
+  - bundler
+  - pry
+
+gem_packages:
+  - rubocop
+  - tmuxinator
+  - iesd

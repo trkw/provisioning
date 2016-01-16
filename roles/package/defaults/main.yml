@@ -1,0 +1,52 @@
+---
+homebrew_packages:
+  - { name: openssl }
+  - { name: openssl, state: linked, install_options: 'force' }
+  - { name: git }
+  - { name: wget }
+  - { name: curl }
+  - { name: lv }
+  - { name: go }
+  - { name: w3m }
+  - { name: reattach-to-user-namespace }
+  - { name: docker }
+  - { name: docker-machine }
+  - { name: docker-compose }
+  - { name: mobile-shell }
+  - { name: fdclone }
+  - { name: ffmpeg }
+  - { name: pstree }
+  - { name: urlview }
+  - { name: gnupg2 }
+  - { name: tmux-ambiguous-patched }
+  - { name: mutt-ambiguous-patched, install_options: '--with-sidebar-patch' }
+  - { name: pandoc }
+  - { name: bash-completion }
+  - { name: bundler-completion }
+  - { name: gem-completion }
+  - { name: packer-completion }
+  - { name: pip-completion }
+  - { name: rake-completion }
+  - { name: tmuxinator-completion }
+  - { name: vagrant-completion }
+
+homebrew_cask_packages:
+  - google-japanese-ime
+  - iterm2-beta
+  - firefox-ja
+  - thunderbird-ja
+  - vagrant
+  - virtualbox
+  - yujitach-menumeters
+  - avira-antivirus
+  - kensington-trackball-works
+  - omnifocus
+  - qlmarkdown
+  - silverlight
+  - kindle
+  - send-to-kindle
+  - 1password
+  - adobe-creative-cloud
+  - macdown
+  - duet
+  - visual-studio-code

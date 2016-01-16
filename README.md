@@ -1,9 +1,22 @@
-# Provisioning
+# osx-provision
 
-ifttt/dash
+[![Build Status](https://travis-ci.org/nytame/osx-provisioning.svg?branch=master)](https://travis-ci.org/nytame/osx-provisioning)
 
-![dash](https://cloud.githubusercontent.com/assets/2557813/12215477/d86e7d32-b701-11e5-8c78-24733bbb4f28.png)
+## Usage
+At first.
 
-```
-bash <(curl -fsSL https://raw.githubusercontent.com/IFTTT/dash/master/bin/bootstrap)
-```
+    $ sudo xcodebuild -license
+
+and install homebrew, python, and ansible.
+
+    $ rake setup
+
+Run ansible-playbook.
+
+    $ rake run
+
+## Help
+    $ rake
+    rake dryrun  # Only syntax check
+    rake run     # Run ansible-playbook
+    rake setup   # Install homebrew, python, and ansible

@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  sudo: no
+  roles:
+    - package
+    - editor/vim
+    - lang/ruby
+    - homesick
+    - font
