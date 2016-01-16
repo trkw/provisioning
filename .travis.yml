@@ -1,0 +1,18 @@
+language: objective-c
+
+os:
+  - osx
+
+before_install:
+  - rvm seppuku --force
+  - unset RUBY_VERSION GEM_HOME GEM_PATH
+
+install:
+  - brew update
+  - brew install python ansible
+
+before_script:
+  - rake dryrun
+
+script:
+  - rake run
