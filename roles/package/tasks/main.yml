@@ -11,5 +11,4 @@
 
 - name: Install homebrew-cask packages
   homebrew_cask: name={{ item }}
-  environment: homebrew_cask_environment
   with_items: homebrew_cask_packages
