@@ -1,6 +1,6 @@
 # osx-provision
 
-[![Build Status](https://travis-ci.org/nytame/osx-provisioning.svg?branch=master)](https://travis-ci.org/nytame/osx-provisioning)
+[![Build Status](https://travis-ci.org/nytame/osx-provisioning.svg?branch=master)](https://travis-ci.org/trkw/provisioning)
 
 ## Usage
 At first.
