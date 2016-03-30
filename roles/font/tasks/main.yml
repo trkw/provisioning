@@ -1,6 +1,0 @@
----
-- name: Install VL Gothic font to user directory
-  copy: src={{ item }} dest=~/Library/Fonts/
-  with_items:
-    - vlgothic/VL-Gothic-Regular.ttf
-    - vlgothic/VL-PGothic-Regular.ttf

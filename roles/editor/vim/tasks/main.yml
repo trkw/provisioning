@@ -1,8 +1,0 @@
-- name: Install MacVim
-  homebrew_cask: name=macvim
-
-- name: Create neobundle plugin directory
-  file: path={{ neobundle_root }} state=directory
-
-- name: Install NeoBundle
-  git: repo=https://github.com/Shougo/neobundle.vim dest={{ neobundle_root }}/neobundle.vim

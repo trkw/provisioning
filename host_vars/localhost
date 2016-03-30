@@ -1,0 +1,55 @@
+---
+homebrew_packages:
+  - autoconf
+  - gawk
+  - jq
+  - peco
+  - xz
+  - binutils
+  - gdb
+  - pkg-config
+  - zsh
+  - carthage
+  - gdbm
+  - python
+  - tmux
+  - coreutils
+  - git
+  - rbenv
+  - tree
+  - direnv
+  - gnu-sed
+  - readline
+  - vim
+  - go
+  - openssl
+  - reattach-to-user-namespace
+  - watch
+  - findutils
+  - pcre
+  - ruby-build
+  - wget
+
+gitconfig_template:
+  path: "~/.ansible_local_mac/roles/setup_git/templates/"
+
+homebrew_cask_packages:
+  - google-japanese-ime
+  - sublime-text3
+  - iterm2-beta
+  - firefox-ja
+  - thunderbird-ja
+  - vagrant
+  - virtualbox
+  - 1password
+  - adobe-creative-cloud
+  - evernote
+  - google-chrome
+  - skype
+  - vlc
+  - dropbox
+  - alfred
+  - flash-player
+  - slack
+  - duet
+  - visual-studio-code

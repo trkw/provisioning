@@ -1,7 +1,0 @@
----
-homebrew_taps:
-  - homebrew/binary
-  - homebrew/dupes
-  - homebrew/versions
-  - homebrew/completions
-  - nytame/patched

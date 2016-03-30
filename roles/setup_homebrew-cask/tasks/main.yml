@@ -1,0 +1,11 @@
+---
+- name: Install Caskroom
+  homebrew_tap: tap=caskroom/cask state=present
+
+- name: Add repositories
+  homebrew_tap: tap={{ item }} state=present
+  with_items: homebrew_cask_taps
+
+- name: Install homebrew-cask packages
+  homebrew_cask: name={{ item }}
+  with_items: homebrew_cask_packages

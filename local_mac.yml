@@ -1,0 +1,16 @@
+- hosts: localhost
+  # 実行前に対象サーバの情報を収集を停止
+  gather_facts: no
+  vars_files:
+    - vars/git_config.yml
+  environment:
+    # 未設定の場合、/opt/homebrew-cask/Caskroomになる
+    HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+  roles:
+    #- test
+    - setup_git
+    - setup_homebrew
+    - setup_homebrew-cask
+    - install_zsh
+    - install_dotfiles
+    - install_vim
