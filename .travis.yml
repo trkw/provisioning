@@ -16,3 +16,6 @@ before_script:
 
 script:
   - rake run
+
+notifications:
+  slack: trkw:HcDjObB75nA7fU4uEc3I7x5z
