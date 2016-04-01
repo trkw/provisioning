@@ -9,7 +9,6 @@ homebrew_packages:
   - gdb
   - pkg-config
   - zsh
-  - carthage
   - gdbm
   - python
   - tmux
@@ -28,6 +27,7 @@ homebrew_packages:
   - findutils
   - pcre
   - ruby-build
+  - tig
   - wget
 
 gitconfig_template:
